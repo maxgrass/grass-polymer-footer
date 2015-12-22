@@ -1,0 +1,28 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<dom-module id="grass-polymer-footer">
+    <template>
+        <style>
+
+        </style>
+
+        <footer class="mdl-mini-footer">
+            <div class="mdl-mini-footer__left-section">
+                <div class="mdl-logo">{{title}}</div>
+                <ul class="mdl-mini-footer__link-list">
+                    <content id="leftContent"></content>
+                </ul>
+            </div>
+        </footer>
+    </template>
+
+    <script>
+        (function() {
+            'use strict';
+
+            Polymer({
+                is: 'grass-polymer-footer'
+            });
+        })();
+    </script>
+</dom-module>

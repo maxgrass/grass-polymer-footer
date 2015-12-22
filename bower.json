@@ -1,0 +1,27 @@
+{
+  "name": "grass-polymer-footer",
+  "version": "0.1.0",
+  "description": "A MDL footer wrapper",
+  "authors": [
+    "Max Grass"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer",
+    "layout"
+  ],
+  "main": "grass-polymer-footer.html",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxgrass/grass-polymer-footer.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/maxgrass/grass-polymer-footer",
+  "ignore": [],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0",
+    "material-design-lite": "~1.0.6"
+  },
+  "devDependencies": {
+  }
+}
